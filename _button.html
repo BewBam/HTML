@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Button</title>
+</head>
+<body align="center">
+
+    <button disabled>Click me</button>
+<br>
+<br>
+    <a href="http://www.google.com" target="_blank">
+        <button style="background-color: aquamarine; border-color: rgb(79, 253, 195); border-radius:5px">Click me to go to google.com</button>
+    </a>
+<br>
+<br>
+    <button onclick="doSomething()">Click me to exit</button>
+
+    <p id="test">Hello</p>
+
+    <script>
+        function doSomething() {
+            document.getElementById("test").innerHTML = "Goodbye";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="action_page.php" method="GET">
+<!--First Name-->
+        <div>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Bew" required>
+        </div>
+<br>
+<!--Last Name-->
+        <div>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" placeholder="Bam" required>
+        </div>
+<br>
+<!--Email-->
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="bamsilly04@gmail.com">
+        </div>
+<br>
+<!--Phone number-->
+        <div>
+            <label for="tel">Phone number:</label>
+            <input type="tel" id="tel" name="tel" placeholder="(+84) 835 527 222">
+        </div>
+<br>
+<!--Password-->
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" placeholder="Enter your password" maxlength="12" required>
+        </div>
+<br>
+<!--Date-->
+        <div>
+            <label for="bday">Birthday</label>
+            <input type="date" id="bday" name="bday">
+        </div>
+<br>
+<!--Option click/enter-->
+        <div>
+            <label>Age</label>
+            <input type="number" id="age" name="age" min="0" max="150" value="1">
+        </div>
+<br>
+<!--Option tick-->
+        <div>
+            <label for="pronouns">Pronouns:</label>
+
+            <label for="he">he/him</label>
+            <input type="radio" id="he" name="pronouns" value="he/him">
+            
+            <label for="she">she/her</label>
+            <input type="radio" id="she" name="pronouns" value="she/her">
+
+            <label for="they">they/them</label>
+            <input type="radio" id="they" name="pronouns" value="they/them">
+        </div>
+<br>
+<!--Option scroll-->
+        <div>
+            <label for="school">School:</label>
+            <select id="school" name="school">
+                <option value="hcmut">HCMUT</option>
+                <option value="ueh">UEH</option>
+                <option value="vgu">VGU</option>
+            </select>
+        </div>
+<br>
+<!--Checkboard-->
+        <div>
+            <label for="gay">Gay? </label>
+            <input type="checkbox" id="gay" name="gay">
+        </div>
+<br>
+<!--Reset/Submit-->
+        <div>
+            <input type="reset">
+            <input type="submit">
+        </div>
+
+    </form>
+
+</body>
+</html>
